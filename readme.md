@@ -13,6 +13,8 @@ You can find the 3-part-series at:_
   - `cd laravelexample`
 - make sure not to work directly on the master branch  
   - `git checkout -b my_local_branch`
+- install the dependencies  
+  - `composer install`
 - to prepare the vagrant configuration, run
   - `vendor/bin/homestead make` or `vendor/bin/homestead.bat make` on Windows
 - adjust the `hosts` file and the newly created `Homestead.yaml` in the root of the repo according to your needs. Usually that includes:
